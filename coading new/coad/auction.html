@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Live Auction - SecondHand Hub</title>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="text-gray-600 body-font bg-gray-800 text-white">
+        <div class="container mx-auto flex flex-wrap p-5 flex-row items-center justify-between">
+            <a class="ml-3 text-3xl font-bold">SecondHand Hub</a>
+            
+            <!-- Search Bar with Icon -->
+            <div class="relative">
+                <input
+                    type="text"
+                    placeholder="Search auctions..."
+                    class="bg-gray-200 rounded-full py-2 pl-10 pr-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                />
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="absolute left-3 top-2.5 w-5 h-5 text-gray-500"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M21 21l-4.35-4.35m0 0a7.5 7.5 0 1110.6-10.6 7.5 7.5 0 01-10.6 10.6z"
+                    />
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-16 mx-auto">
+            <div class="flex flex-wrap w-full mb-10">
+                <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                    <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Live Auction</h1>
+                    <div class="h-1 w-24 bg-indigo-500 rounded"></div>
+                </div>
+                <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
+                    Participate in our live auction events. Click "I'm Interested" to receive notifications before the auction starts. Live auctions go live at 10 PM!
+                </p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <!-- Auction Item 1 -->
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="Product 1">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">CATEGORY</h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Antique Vase</h2>
+                        <p class="leading-relaxed text-base mb-4">A rare antique vase with exquisite design, perfect for collectors.</p>
+                        <div class="flex justify-between items-center">
+                            <button class="text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded">I'm Interested</button>
+                            <p class="text-sm text-gray-600">Live Auction Time: 10 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Auction Item 2 -->
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="Product 2">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">CATEGORY</h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Luxury Watch</h2>
+                        <p class="leading-relaxed text-base mb-4">A premium watch with elegant craftsmanship and timeless style.</p>
+                        <div class="flex justify-between items-center">
+                            <button class="text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded">I'm Interested</button>
+                            <p class="text-sm text-gray-600">Live Auction Time: 10 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Auction Item 3 -->
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="Product 3">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">CATEGORY</h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Vintage Camera</h2>
+                        <p class="leading-relaxed text-base mb-4">Capture memories with this classic vintage camera, a collector's delight.</p>
+                        <div class="flex justify-between items-center">
+                            <button class="text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded">I'm Interested</button>
+                            <p class="text-sm text-gray-600">Live Auction Time: 10 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Auction Item 4 -->
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="Product 4">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">CATEGORY</h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Classic Guitar</h2>
+                        <p class="leading-relaxed text-base mb-4">A beautifully crafted guitar with a rich sound, ideal for music enthusiasts.</p>
+                        <div class="flex justify-between items-center">
+                            <button class="text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded">I'm Interested</button>
+                            <p class="text-sm text-gray-600">Live Auction Time: 10 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
